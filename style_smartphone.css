@@ -1,0 +1,311 @@
+@media screen and (min-width: 0px) and (max-width:767px)
+{
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    header {
+        padding: 15px 0;
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        z-index: 10000;
+    }
+    
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        height: 21px;
+    }
+    
+    .header-logo img {
+        display: block;
+        height: 16px;   
+    } 
+
+    .header-menu-list {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header-menu-list li {  
+        text-align: center;
+        list-style: none;
+        padding: 20px 0;
+    }
+
+    .header-menu span {
+        display: block;
+        margin-right: 0;
+    }
+    
+    .header-EN {
+        font-size: 15px;
+        font-weight: 700;
+        font-family: 'lato', sans-serif;
+        color: white;
+        letter-spacing: 5px;
+    }
+    
+    .header-JP {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        color: #f79214;
+        letter-spacing: 2px;
+    }
+    
+    .header-btn a { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0 20px;
+        border-radius: 38px;
+        height: 60px;
+        width: 250px;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        background-color: #f79214;
+        color: white;
+    }
+    
+    .header-menu-list {
+        position: fixed;
+        top: 52px;
+        left: 0;
+        padding-top: 20px;
+        padding-bottom: 75px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0,0, 0.8);
+        display: none;
+    }
+
+    .hamburger {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 21px;
+    }
+        
+    #hamburger-checkbox {
+        display: none;
+    }
+    
+    .hamburger span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #333;
+    }
+        
+    .hamburger-border2 {
+        top: 50%;     
+    }
+    
+    .hamburger-border3 {
+        top: 100%;    
+    }
+    
+    #hamburger-checkbox:checked ~ .hamburger .hamburger-border1 {
+        transform: rotate(45deg);
+        top: 50%;     
+    }
+        
+    #hamburger-checkbox:checked ~ .hamburger .hamburger-border2 {
+        background-color: transparent;        
+    }
+    
+    #hamburger-checkbox:checked ~ .hamburger .hamburger-border3 {
+        transform:  rotate(-45deg);
+        top: 50%;
+    }
+        
+    #hamburger-checkbox:checked ~ .header-menu-list {
+        display: block;
+    }
+
+    main {
+        padding-top: 52px !important; 
+    }
+
+    .section-firstview {  
+        background-image: none;
+        padding: 0 0 35px;
+    }  
+    
+    .firstview-sp-background {
+        display: block;
+        width: 100%;
+    }
+
+    .firstview-content-wrapper {
+        max-width: 1140px;
+        margin: -175.5px auto 0;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+    .firstview-main {
+        margin-bottom: 20px; 
+        width: 100%;
+    }
+    
+    .firstview-message {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "lato", sans-serif;
+        color: #333;
+    }
+    
+    .firstview-icon {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .icon-left, .icon-center {
+        margin-right: 8px;
+    }
+    
+    .icon-center {
+        height: auto;
+        width: 40%;
+    }
+    
+    .icon-left, .icon-right {
+        height: auto;
+        width: 27.5%;
+    }
+
+    .firstview-btn {
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .firstview-btn a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 38px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;   
+    }
+    
+    .btn-contact {
+        margin: 0;
+        height: 64px;
+        width: 350px;
+        background-color: #f79214;
+        color: white;
+    }
+    
+    .btn-download {
+        display: none !important;
+    }
+    
+    .firstview-note {
+        line-height: 18px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;   
+        color: #a2a2a4;
+    }
+    
+    .section-video {
+        padding: 30px 0;
+        background-color: #f79214;
+    }
+    
+    .video-wrapper {
+        display: block;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+    .video {
+        display: block;
+        margin-bottom: 16px;
+        height: auto;
+        width: 350px;
+    }
+    
+    .video-text {
+        margin: 0;
+        font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        color: white;  
+    }
+    
+    .video-title {
+        margin-bottom: 10px;
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: 3.3px;
+    }    
+    
+    .video-title span {
+        font-family: 'Lato',sans-serif;
+        letter-spacing: 1px;
+
+    }
+    
+    .video-introduction {
+        margin-bottom: 16px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+    
+    .video-curriculum {
+        font-size: 18px;
+        font-weight: 600;
+        color: inherit;
+    }
+    
+    .video-curriculum::before {
+        content: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/about/arrow-icon.svg);
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    
+    .fixed-btn {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 114px;
+        background-color: #f4f5f7;
+    }
+    
+    .fixed-btn a {
+        display: block;
+        width: 100%;
+        height: 90px;
+    }
+    
+    .fixed-btn img {
+        display: block;
+        margin: 0 auto;
+        width: 367px;
+        height: auto;
+    }
+    
+}
