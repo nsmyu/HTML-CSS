@@ -13,8 +13,8 @@ a {
 header {
     padding: 20px 0;
     width: 100%;
-    background-color: transparent;
     position: absolute;
+    background-color: transparent;
     z-index: 10000;
 }
 
